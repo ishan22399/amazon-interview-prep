@@ -43,5 +43,16 @@ public class Car {
         System.out.println("Current Fuel in the car: " + this.currentFuelInLiters + " Liters.");
     }
 
-    
+    public void getCarDetails() {
+        System.out.println();
+        System.out.println("Car Details:");
+        System.out.println("-----------------------------");
+        System.out.println("Model: " + this.model);
+        System.out.println("Color: " + this.color);
+        System.out.println("No of Wheels: " + this.noOfWheels);
+        System.out.println("Speed: " + this.speed + " Km/h");
+        System.out.println("Current Fuel: " + this.currentFuelInLiters + " Liters");
+        System.out.println("Max Fuel Capacity: " + this.maxFuelCapacityInLiters + " Liters");
+    }
+
 }
