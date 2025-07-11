@@ -38,4 +38,10 @@ public class Car {
             System.out.println("The car has been refueled. Current fuel: " + this.currentFuelInLiters + " liters.");
         }
     }
+
+    public void getCurrentFuel() {
+        System.out.println("Current Fuel in the car: " + this.currentFuelInLiters + " Liters.");
+    }
+
+    
 }
