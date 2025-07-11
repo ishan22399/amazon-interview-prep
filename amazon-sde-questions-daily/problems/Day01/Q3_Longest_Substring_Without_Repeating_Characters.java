@@ -6,7 +6,7 @@ public class Q3_Longest_Substring_Without_Repeating_Characters {
         int Len = 0;
 
         Set<Character> unq = new HashSet<>();
-        for(int i =0; i < s.length(); i++){
+        for(int i = 0; i < s.length(); i++){
             unq.clear();
             Len = 0;
 
@@ -24,5 +24,10 @@ public class Q3_Longest_Substring_Without_Repeating_Characters {
         }
 
         return maxLen;
+    }
+
+    public static void main(String[] args) {
+        String s = "abcabcbb";
+        System.out.println("Brute Force: " + solutionBruteForce(s));
     }
 }
