@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Q6_Find_In_2D_Array {
+public class Q7_Find_In_2D_Array {
     static int[][] findNum(int[][] arr, int num){
         int rows = arr.length;
         int cols = arr[0].length;
